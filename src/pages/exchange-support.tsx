@@ -99,7 +99,7 @@ function ExchangeSupport() {
 
     return <Container>
         <Table variant="simple" w="100%" fontWeight='light' mt={5}>
-            <TableCaption placement='top' fontSize='xl' fontWeight='light'>Exchanges support different formats and networks on IOTX</TableCaption>
+            <TableCaption placement='top' fontSize='xl' fontWeight='light'>Different Formats and Networks of IOTX Tokens Supported by Exchanges</TableCaption>
             <Thead>
                 <Tr>
                     <Th></Th>
@@ -122,7 +122,7 @@ function ExchangeSupport() {
             </Tbody>
         </Table>
         <Table variant="simple" w="100%" fontWeight='light' my={10}>
-            <TableCaption placement='top' fontSize='xl' fontWeight='light'>Overview of exchanges supporting IOTX tokens</TableCaption>
+            <TableCaption placement='top' fontSize='xl' fontWeight='light'>Different Formats of IOTX Tokens.</TableCaption>
             <Thead>
                 <Tr>
                     <Th>Name</Th>
