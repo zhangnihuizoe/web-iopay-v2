@@ -10,20 +10,6 @@
 <a href="https://iotex.io/"><img src="public/images/IoTeX.png" height="200px"/></a>
 
 
-IoTeX is building the next generation of the decentralized blockchain protocol for powering real-world information marketplace in a decentralized-yet-scalable way. Refer to IoTeX [whitepaper](https://iotex.io/research/) for details.
-
-<a href="https://iotex.io/devdiscord" target="_blank">
-  <img src="https://github.com/iotexproject/halogrants/blob/880eea4af074b082a75608c7376bd7a8eaa1ac21/img/btn-discord.svg" height="36px">
-</a>
-
-#### New to IoTeX?
-
-Please visit https://iotex.io official website or [IoTeX onboard pack](https://onboard.iotex.io/) to learn more about IoTeX network.
-
-#### Run a delegate?
-
-Please visit [IoTeX Delegate Manual](https://github.com/iotexproject/iotex-bootstrap) for detailed setup process.
-
 ## Building the source code
 
 ### Minimum requirements
