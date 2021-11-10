@@ -1,39 +1,63 @@
-# Example app with [chakra-ui](https://github.com/chakra-ui/chakra-ui) and TypeScript
+# iopay web v2
 
-This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra-ui) as the component library within a Next.js app with TypeScript.
 
-Next.js and chakra-ui have built-in TypeScript declarations, so we'll get autocompletion for their modules straight away.
+[![Chakra-ui doc](https://img.shields.io/badge/ChakraUI-GithubDoc-blue)](https://github.com/chakra-ui/chakra-ui)
+[![Join the forum](https://img.shields.io/badge/Discuss-IoTeX%20Community-blue)](https://community.iotex.io/c/research-development/protocol)
+[![Node version](https://img.shields.io/badge/node-14.6.0-blue.svg)](https://github.com/nodejs/node)
+[![Releases](https://img.shields.io/github/release/iopay/web-iopay-v2/all.svg?style=flat-square)](https://github.com/iopay/web-iopay-v2/releases)
 
-We are connecting the Next.js `_app.js` with `chakra-ui`'s Provider and theme so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
 
-## Preview
+<a href="https://iotex.io/"><img src="public/images/IoTeX.png" height="200px"/></a>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-chakra-ui-typescript)
+IoTeX is building the next generation of the decentralized blockchain protocol for powering real-world information marketplace in a decentralized-yet-scalable way. Refer to IoTeX [whitepaper](https://iotex.io/research/) for details.
 
-## Deploy your own
+<a href="https://iotex.io/devdiscord" target="_blank">
+  <img src="https://github.com/iotexproject/halogrants/blob/880eea4af074b082a75608c7376bd7a8eaa1ac21/img/btn-discord.svg" height="36px">
+</a>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+#### New to IoTeX?
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui-typescript&project-name=with-chakra-ui-typescript&repository-name=with-chakra-ui-typescript)
+Please visit https://iotex.io official website or [IoTeX onboard pack](https://onboard.iotex.io/) to learn more about IoTeX network.
 
-## How to use
+#### Run a delegate?
 
-### Using `create-next-app`
+Please visit [IoTeX Delegate Manual](https://github.com/iotexproject/iotex-bootstrap) for detailed setup process.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Building the source code
 
-```bash
-npx create-next-app --example with-chakra-ui-typescript with-chakra-ui-typescript-app
-# or
-yarn create next-app --example with-chakra-ui-typescript with-chakra-ui-typescript-app
+### Minimum requirements
+
+| Components | Version | Description |
+|----------|-------------|-------------|
+| [Node](https://nodejs.org/) | &ge; 14.6.0 | Nodejs language |
+
+
+### Compile
+
+Download the code to your desired local location.
+```
+git clone git@github.com:iopay/iopay-web-v2.git
+cd iopay-web-v2
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Use yarn to install dependencies. 
+```
+yarn install
+```
 
-## Notes
+### Run iopay-web-v2
 
-Chakra has supported Gradients and RTL in `v1.1`. To utilize RTL, [add RTL direction and swap](https://chakra-ui.com/docs/features/rtl-support).
+```
+yarn start
+```
 
-If you don't have multi-direction app, you should make `<Html lang="ar" dir="rtl">` inside `_document.ts`.
+
+## Contact
+
+- Mailing list: [iotex-dev](iotex-dev@iotex.io)
+- Bugs: [issues](https://github.com/iopay/iopay-web-v2/issues)
+
+
+## License
+This project is licensed under the [Apache License 2.0](LICENSE).
