@@ -25,8 +25,8 @@
 
 Download the code to your desired local location.
 ```
-git clone git@github.com:iopay/iopay-web-v2.git
-cd iopay-web-v2
+git clone git@github.com:iopay/web-iopay-v2.git
+cd web-iopay-v2
 ```
 
 Use yarn to install dependencies. 
@@ -34,7 +34,7 @@ Use yarn to install dependencies.
 yarn install
 ```
 
-### Run iopay-web-v2
+### Run web-iopay-v2
 
 ```
 yarn start
@@ -44,7 +44,7 @@ yarn start
 ## Contact
 
 - Mailing list: [iotex-dev](iotex-dev@iotex.io)
-- Bugs: [issues](https://github.com/iopay/iopay-web-v2/issues)
+- Bugs: [issues](https://github.com/iopay/web-iopay-v2/issues)
 
 
 ## License
