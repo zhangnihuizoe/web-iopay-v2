@@ -43,7 +43,7 @@ const Index: NextPage = observer(() => {
             response.data.KV.forEach((item) => {
                 store[`${item.key}`] = Number(item.value);
             });
-            const {data} = await axios.post('https://iotex.io/burndrop/getLatestStats')
+            const {data} = await axios.post('/burndrop/getLatestStats')
             store.totalBurnDropStaked = numberWithCommas(Number(data['total_staked_amount']));
             store.bucketsAmount = numberWithCommas(Number(data['bucket_amount']))
         },
