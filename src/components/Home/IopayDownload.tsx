@@ -20,7 +20,7 @@ const DesktopItem = ({href, ...restProps}) => <chakra.a href={href} display="fle
                                                         h={{base: '48px', md: '54px', lg: '48px'}}
                                                         textAlign="center"
                                                         fontFamily="Roboto"
-                                                        font-weight="bold"
+                                                        fontWeight="bold"
                                                         fontSize="20px"
                                                         borderRadius="4px" {...restProps} />
 const IopayDownload = observer((props) => {

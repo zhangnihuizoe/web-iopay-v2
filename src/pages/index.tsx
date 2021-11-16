@@ -3,9 +3,9 @@ import { observer, useLocalObservable } from "mobx-react-lite";
 import { Box, chakra, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react';
 import { useStore } from "../store";
 import { Footer } from "../components/Footer";
-import { SubTitle, Title } from './Home/styles';
+import { SubTitle, Title } from '../components/Home/styles';
 import { Button } from "../components/Button";
-import IopayDownload from './Home/IopayDownload';
+import IopayDownload from '../components/Home/IopayDownload';
 import { subgraphAPI } from "../lib/iotexGraphApi";
 import BigNumber from "bignumber.js";
 import { BigNumberState } from '../store/standard/BigNumberState';
@@ -13,9 +13,10 @@ import axios from 'axios';
 import { numberWithCommas } from "../utils/helper";
 import { Header } from "../components/Header";
 import { Container } from 'src/components/Container';
+import { NextPage } from "next";
 
 
-const Index = observer(() => {
+const Index: NextPage = observer(() => {
     const {lang} = useStore()
     const store = useLocalObservable(() => ({
         stakers: 0,
