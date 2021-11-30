@@ -1,6 +1,11 @@
 import { extendTheme } from '@chakra-ui/react'
 import { createBreakpoints } from '@chakra-ui/theme-tools'
 
+const config = {
+    initialColorMode: 'light',
+    useSystemColorMode: false
+}
+
 const fonts = {
     untitled: 'Untitled Sans, apple-system, sans-serif',
     mono: 'Söhne Mono, menlo, monospace',
@@ -15,7 +20,8 @@ const breakpoints = createBreakpoints({
     xl: '80em',
 })
 
-const theme = extendTheme({
+const theme = extendTheme( {
+    config,
     colors: {
         black: '#16161D',
         btnBgColor: "linear-gradient(92.18deg, #44FFB2 19.21%, #00D3DC 105.06%)",
@@ -27,8 +33,7 @@ const theme = extendTheme({
         global: {
             'html, #__next': {
                 height: '100%',
-                padding: 0,
-                background: "#110F1C"
+                padding: 0
             },
             body: {
                 overflowY: 'scroll',

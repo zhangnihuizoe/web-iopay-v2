@@ -1,7 +1,9 @@
-import { Container, Icon, Table, TableCaption, Tbody, Td, Text, Th, Thead, Tr } from "@chakra-ui/react";
+import { Container, Icon, Table, TableCaption, Tbody, Td, Text, Th, Thead, Tr, useColorMode } from "@chakra-ui/react";
 import { CheckCircleIcon, NotAllowedIcon } from "@chakra-ui/icons";
 
 function ExchangeSupport() {
+    const color = { light: 'black', dark: 'white' }
+    const { colorMode } = useColorMode()
     const tokenForamt = [
         {
             name: 'Native IOTX',
@@ -97,9 +99,9 @@ function ExchangeSupport() {
             CIOTX: false
         }];
 
-    return <Container>
-        <Table variant="simple" w="100%" fontWeight='light' mt={5}>
-            <TableCaption placement='top' fontSize='xl' fontWeight='light'>
+    return <Container bg='white' color={color[colorMode]}>
+        <Table color={color[colorMode]} variant="simple" w="100%" fontWeight='light' mt={5}>
+            <TableCaption color={color[colorMode]} placement='top' fontSize='xl' fontWeight='light'>
                 Different Formats and Networks of IOTX Tokens Supported by Exchanges
                 <Text textAlign='left' mt={2} fontSize='sm' fontWeight='light'>Notice:  The list is based on the best knowledge available on the exchanges websites. Please
                     always check their help center for the most accurate information. </Text>
