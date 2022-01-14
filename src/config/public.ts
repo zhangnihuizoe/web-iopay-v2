@@ -8,7 +8,8 @@ export const publicConfig = {
     IOPAY_APK_DOWNLOAD: "https://iopay-app.s3.amazonaws.com/iopay-release.apk",
     IOPAY_GOOGLE_DOWNLOAD: "https://play.google.com/store/apps/details?id=io.iotex.iopay.gp",
     IOPAY_GITHUB_API_URL: "https://api.github.com/repos/iotexproject/iotex-explorer/releases/latest",
-    IOPAY_AWS_DOWNLOAD_LINK_PREFIX:'https://iopay-app-cn.s3.cn-northwest-1.amazonaws.com.cn/'
+    IOPAY_AWS_DOWNLOAD_LINK_PREFIX:'https://iopay-app-cn.s3.cn-northwest-1.amazonaws.com.cn/',
+    IOPAY_WEB_URL:"https://web.iopay.me/"
 }
 
 export const getOS =  ()=>{

@@ -1,5 +1,5 @@
 {
-  "GET.STARTED" : "GET STARTED",
+  "GET.STARTED": "GET STARTED",
   "What.is.IoTeX": "What is IoTeX",
   "iotx": "IOTX",
   "press": "Press",
@@ -49,5 +49,6 @@
   "download.iopay": "Download ioPay",
   "machineFi": "MachineFi",
   "iopay.mobile": "Mobile",
-  "iopay.desktop": "Desktop"
+  "iopay.desktop": "Desktop",
+  "iopay.web": "Web"
 }
