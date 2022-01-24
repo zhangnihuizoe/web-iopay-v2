@@ -54,7 +54,7 @@ export const Footer = observer(() => {
       lists: [
         {
           name: lang.t("ioPay.wallet"),
-          path: "/iopay/",
+          path: "https://web.iopay.me/",
           blank: true,
           icon: "images/iopay/icon_wallet_n.png",
           icon_active: "images/iopay/icon_wallet_s.png",
