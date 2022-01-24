@@ -61,7 +61,7 @@ export const Footer = observer(() => {
         },
         {
           name: lang.t("get.iotx"),
-          path: "https://ecosystem.iotex.io/exchanges-wallets",
+          path: "https://ecosystem.iotex.io/?tag=Exchange,Wallet",
           blank: true,
           icon: "images/iopay/icon_getiotx_n.png",
           icon_active: "images/iopay/icon_getiotx_n.png",
